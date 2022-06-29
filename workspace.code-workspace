@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "cambio-service"
+		},
+		{
+			"path": "bookservice"
+		}
+	],
+	"settings": {
+		"java.dependency.packagePresentation": "hierarchical",
+		"java.dependency.syncWithFolderExplorer": true,
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}

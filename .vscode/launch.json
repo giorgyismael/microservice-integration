@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch BookserviceApplication",
+            "request": "launch",
+            "mainClass": "com.gioliveira.bookservice.BookserviceApplication"
+        },
+        {
+            "type": "java",
+            "name": "CambioServiceApplication-8000",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.gioliveira.cambioservice.CambioServiceApplication",
+            "projectName": "cambio-service",
+            "args": "",
+            "vmArgs": "-Dserver.port=8000",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "CambioServiceApplication-8001",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.gioliveira.cambioservice.CambioServiceApplication",
+            "projectName": "cambio-service",
+            "args": "",
+            "vmArgs": "-Dserver.port=8001",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
